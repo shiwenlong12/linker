@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":[["SCRIPT","链接脚本。"]],"enum":[["KernelRegionTitle","内核内存分区名称。"]],"macro":[["boot0","定义内核入口。"]],"struct":[["AppIterator","应用程序迭代器。"],["AppMeta","应用程序元数据。"],["KernelLayout","内核地址信息。"],["KernelRegion","内核内存分区。"],["KernelRegionIterator","内核内存分区迭代器。"]]};
