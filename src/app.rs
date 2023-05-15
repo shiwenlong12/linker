@@ -58,3 +58,14 @@ impl Iterator for AppIterator {
         }
     }
 }
+
+#[test]
+fn test_app() {
+    let _app = AppMeta{
+        base: 8040_0000,
+        step: 1,
+        count: 1,
+        first: 8040_0000,
+    };
+    _app.iter();
+}

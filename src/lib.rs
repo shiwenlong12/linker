@@ -290,11 +290,11 @@ mod tests{
 
     }
 
-    use core::fmt::Formatter;
+    // use core::fmt::Formatter;
     //测试内核内存分区
     #[test]
     fn test_kernel_region() {
-        let region = KernelRegion{
+        let _region = KernelRegion{
             title: Text,
             range:8000_1000..8000_8000,
         };
@@ -330,12 +330,5 @@ mod tests{
         //     assert_eq!(0,1);
         // }
 
-    }
-
-    //use crate::app::{AppIterator, AppMeta};
-    #[test]
-    fn test_app() {
-        
-    }
-    
+    }    
 }
